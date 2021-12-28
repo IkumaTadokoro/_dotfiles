@@ -2,3 +2,5 @@
 	name = ikuma-t
 	email = tadokorodev@gmail.com
 	usernames = ikuma-t
+[init]
+	defaultBranch = main
