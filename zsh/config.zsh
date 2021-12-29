@@ -38,6 +38,7 @@ alias la='ls -la -G'
 alias ll='ls -l -G'
 
 ## git alias
+alias g='git'
 alias gc='git commit -m'
 alias gca='git commit --amend -m'
 alias ga='git add'
