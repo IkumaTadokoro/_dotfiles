@@ -4,3 +4,22 @@
 	usernames = ikuma-t
 [init]
 	defaultBranch = main
+[alias]
+	ss = status
+	br = branch
+	brm = branch -m
+	brd = branch -d
+	brdd = branch -D
+	co = checkout
+	cob = checkout -b
+	cm = commit
+	mg = merge --no-ff
+	mgff = merge --ff
+	cp = cherry-pick
+	log1 = log -1
+	log2 = log -2
+	log3 = log -3
+	logo = log --oneline
+	logn = log --name-status --oneline
+	rlog = reflog
+	firstcom = commit --allow-empty -m \"Initial commit\"
