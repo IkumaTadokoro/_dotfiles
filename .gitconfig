@@ -22,5 +22,5 @@
 	logo = log --oneline
 	logn = log --name-status --oneline
 	rlog = reflog
-	firstcom = commit --allow-empty -m \"Initial commit\"
+	incm = commit --allow-empty -m \"Initial commit\"
 	vacuum = "!f () { git checkout $1; git branch --merged|egrep -v '\\*|develop|main'|xargs git branch -d; git fetch --prune; };f"
