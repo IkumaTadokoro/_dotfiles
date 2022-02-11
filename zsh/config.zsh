@@ -60,7 +60,7 @@ alias br='bin/rails'
 ## docker
 
 alias dc='docker-compose'
-alias dce='docker-compose exec'
+alias de='docker-compose exec'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
