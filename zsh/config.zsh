@@ -41,6 +41,7 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 # ALIAS
 ## source
 alias sz='source ~/.zshrc'
+alias b='bash'
 
 ## ls alias
 alias ls='ls -G'
