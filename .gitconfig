@@ -24,3 +24,5 @@
 	rlog = reflog
 	incm = commit --allow-empty -m \"Initial commit\"
 	vacuum = "!f () { git checkout $1; git branch --merged|egrep -v '\\*|develop|main'|xargs git branch -d; git fetch --prune; };f"
+[core]
+	editor = vim -c \"set fenc=utf-8\"
